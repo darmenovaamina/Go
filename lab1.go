@@ -193,7 +193,7 @@ func (r Rectangle) Area() float64 {
 	return r.Width * r.Height
 }
 
-// 4. 定义一个函数 PrintArea，用来接收 Shape 接口并打印其面积
+// 4.
 func PrintArea(s Shape) {
 	fmt.Printf("The area is: %.2f\n", s.Area())
 }
